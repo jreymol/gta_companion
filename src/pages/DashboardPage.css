@@ -1,0 +1,63 @@
+.dashboard-page {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 2.5rem 1.5rem;
+}
+
+.page-header {
+  margin-bottom: 2rem;
+}
+
+.page-header h1 {
+  font-size: 2rem;
+  font-weight: 800;
+  color: #f3f4f6;
+  margin-bottom: 0.3rem;
+}
+
+.page-header p {
+  color: #6b7280;
+  font-size: 0.95rem;
+}
+
+.page-error {
+  padding: 3rem;
+  text-align: center;
+  color: #f87171;
+}
+
+.metadata-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+}
+
+.meta-card {
+  background: #111827;
+  border: 1px solid #1f2937;
+  border-radius: 8px;
+  padding: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  transition: border-color 0.2s;
+}
+
+.meta-card:hover {
+  border-color: #374151;
+}
+
+.meta-label {
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: #f97316;
+  font-weight: 600;
+}
+
+.meta-value {
+  color: #e5e7eb;
+  font-size: 1rem;
+  font-weight: 500;
+  word-break: break-word;
+}

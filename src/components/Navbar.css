@@ -1,0 +1,110 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #0a0a0a;
+  border-bottom: 2px solid #f97316;
+  padding: 0 2rem;
+  height: 60px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  gap: 1rem;
+}
+
+.navbar-brand {
+  text-decoration: none;
+  display: flex;
+  align-items: baseline;
+  gap: 0.25rem;
+  flex-shrink: 0;
+}
+
+.brand-gta {
+  font-size: 1.6rem;
+  font-weight: 900;
+  color: #f97316;
+  font-style: italic;
+  letter-spacing: -1px;
+}
+
+.brand-sa {
+  font-size: 1.6rem;
+  font-weight: 900;
+  color: #22c55e;
+  font-style: italic;
+}
+
+.brand-sub {
+  font-size: 0.7rem;
+  color: #9ca3af;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-left: 4px;
+}
+
+.navbar-links {
+  display: flex;
+  list-style: none;
+  gap: 0.25rem;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-links a {
+  color: #d1d5db;
+  text-decoration: none;
+  padding: 0.4rem 0.9rem;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  transition: background 0.2s, color 0.2s;
+}
+
+.navbar-links a:hover,
+.navbar-links a.active {
+  background: #1f2937;
+  color: #f97316;
+}
+
+.navbar-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex-shrink: 0;
+}
+
+.navbar-user {
+  color: #9ca3af;
+  font-size: 0.85rem;
+}
+
+.btn-logout {
+  background: transparent;
+  border: 1px solid #f97316;
+  color: #f97316;
+  padding: 0.3rem 0.8rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.85rem;
+  transition: background 0.2s, color 0.2s;
+}
+
+.btn-logout:hover {
+  background: #f97316;
+  color: #000;
+}
+
+.btn-login {
+  background: #f97316;
+  color: #000;
+  text-decoration: none;
+  padding: 0.35rem 0.9rem;
+  border-radius: 4px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  transition: background 0.2s;
+}
+
+.btn-login:hover {
+  background: #ea6c0a;
+}
